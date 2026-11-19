@@ -10,9 +10,7 @@ import { map } from 'rxjs';
   styleUrl: './detalle-material.component.css',
 })
 export class DetalleMaterialComponent {
-  private route = inject(ActivatedRoute);
-  readonly id = this.route.snapshot.paramMap.get('id');
   readonly id$ = inject(ActivatedRoute).paramMap.pipe(
-  map(params => params.get('id'))
-);
+    map((params) => params.get('id')),
+  );
 }
