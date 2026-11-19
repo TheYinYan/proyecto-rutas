@@ -1,0 +1,18 @@
+:host {
+  display: grid;
+  min-height: 16rem;
+  place-items: center;
+  padding: 2rem;
+  border: 1px solid #fecaca;
+  border-radius: 18px;
+  background: #fff7f7;
+  box-shadow: 0 16px 40px rgba(185, 28, 28, 0.05);
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  color: #b91c1c;
+  font-size: 1.05rem;
+  font-weight: 800;
+}
