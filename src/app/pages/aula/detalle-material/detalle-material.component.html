@@ -1,3 +1,8 @@
 <h3>Detalle del material</h3>
-<!-- <p>Identificador: {{ id }}</p>
-<p>Identificador: {{ id$ | async }}</p> -->
+<nav>
+  <a [routerLink]="['../', 1]">Material 1</a>
+  <a [routerLink]="['../', 7]">Material 7</a>
+  <a [routerLink]="['../', 12]">Material 12</a>
+  <a routerLink="../">Volver a la lista</a>
+</nav>
+<p>Identificador: {{ id$ | async }}</p>
